@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566090001CFDC04D00E5A09D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56608FF81CFDC04D00E5A09D /* AppDelegate.m */; };
+		566090021CFDC04D00E5A09D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56608FFB1CFDC04D00E5A09D /* Default-568h@2x.png */; };
+		566090041CFDC04D00E5A09D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56608FFD1CFDC04D00E5A09D /* main.m */; };
+		566090051CFDC04D00E5A09D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56608FFF1CFDC04D00E5A09D /* ViewController.m */; };
+		56CE74781CFDC28D009190F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56CE74771CFDC28D009190F3 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56608FDC1CFDBFF100E5A09D /* FredPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FredPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56608FF71CFDC04D00E5A09D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56608FF81CFDC04D00E5A09D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56608FFB1CFDC04D00E5A09D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		56608FFC1CFDC04D00E5A09D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56608FFD1CFDC04D00E5A09D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56608FFE1CFDC04D00E5A09D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56608FFF1CFDC04D00E5A09D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56CE74771CFDC28D009190F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56608FD91CFDBFF100E5A09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56608FD31CFDBFF100E5A09D = {
+			isa = PBXGroup;
+			children = (
+				56608FF61CFDC04D00E5A09D /* FredPlayground */,
+				56608FDD1CFDBFF100E5A09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56608FDD1CFDBFF100E5A09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56608FDC1CFDBFF100E5A09D /* FredPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56608FF61CFDC04D00E5A09D /* FredPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				56CE74771CFDC28D009190F3 /* Default.png */,
+				56608FFB1CFDC04D00E5A09D /* Default-568h@2x.png */,
+				56608FF71CFDC04D00E5A09D /* AppDelegate.h */,
+				56608FF81CFDC04D00E5A09D /* AppDelegate.m */,
+				56608FFC1CFDC04D00E5A09D /* Info.plist */,
+				56608FFD1CFDC04D00E5A09D /* main.m */,
+				56608FFE1CFDC04D00E5A09D /* ViewController.h */,
+				56608FFF1CFDC04D00E5A09D /* ViewController.m */,
+			);
+			path = FredPlayground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56608FDB1CFDBFF100E5A09D /* FredPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56608FF31CFDBFF100E5A09D /* Build configuration list for PBXNativeTarget "FredPlayground" */;
+			buildPhases = (
+				56608FD81CFDBFF100E5A09D /* Sources */,
+				56608FD91CFDBFF100E5A09D /* Frameworks */,
+				56608FDA1CFDBFF100E5A09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FredPlayground;
+			productName = FredPlayground;
+			productReference = 56608FDC1CFDBFF100E5A09D /* FredPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56608FD41CFDBFF100E5A09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dalleau.re;
+				TargetAttributes = {
+					56608FDB1CFDBFF100E5A09D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 56608FD71CFDBFF100E5A09D /* Build configuration list for PBXProject "FredPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56608FD31CFDBFF100E5A09D;
+			productRefGroup = 56608FDD1CFDBFF100E5A09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56608FDB1CFDBFF100E5A09D /* FredPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56608FDA1CFDBFF100E5A09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566090021CFDC04D00E5A09D /* Default-568h@2x.png in Resources */,
+				56CE74781CFDC28D009190F3 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56608FD81CFDBFF100E5A09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566090051CFDC04D00E5A09D /* ViewController.m in Sources */,
+				566090041CFDC04D00E5A09D /* main.m in Sources */,
+				566090001CFDC04D00E5A09D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56608FF11CFDBFF100E5A09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56608FF21CFDBFF100E5A09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56608FF41CFDBFF100E5A09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FredPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.dalleau.FredPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56608FF51CFDBFF100E5A09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FredPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = re.dalleau.FredPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56608FD71CFDBFF100E5A09D /* Build configuration list for PBXProject "FredPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56608FF11CFDBFF100E5A09D /* Debug */,
+				56608FF21CFDBFF100E5A09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56608FF31CFDBFF100E5A09D /* Build configuration list for PBXNativeTarget "FredPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56608FF41CFDBFF100E5A09D /* Debug */,
+				56608FF51CFDBFF100E5A09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56608FD41CFDBFF100E5A09D /* Project object */;
+}
